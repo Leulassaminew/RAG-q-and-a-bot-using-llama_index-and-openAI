@@ -12,7 +12,7 @@ import pickle
 
 import os
 import pandas as pd
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]="api key here"
 
 documents = SimpleDirectoryReader("./docs").load_data()
 
